@@ -97,6 +97,11 @@ margin-right: 20px;
 
 .second-bloc{
     margin-top: 130px;
+    background-image: url("images/neon-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
 .second-bloc-container{
     display: flex;
@@ -118,6 +123,7 @@ margin-right: 20px;
   2.1px 3.3px 33.4px rgba(0, 0, 0, 0.05),
   5px 8px 80px rgba(0, 0, 0, 0.07)
 ;
+background: white;
 }
 
 .second-bloc-container .item{
@@ -169,10 +175,10 @@ h2{
   ;
 }
 
-.second-bloc-container-cta:hover{
+.second-bloc-container-cta:hover,.third-bloc-cta:hover{
     background: linear-gradient(90deg,#11998e,#38ef7d);
 }
-.second-bloc-container-cta:active{
+.second-bloc-container-cta:active, .third-bloc-cta:active{
     border: #11998e 2px solid;
 }
 h3{
@@ -185,8 +191,16 @@ h3{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    height: 200px;
+    box-shadow:
+  0.1px 0.2px 2.2px rgba(0, 0, 0, 0.02),
+  0.3px 0.5px 5.3px rgba(0, 0, 0, 0.028),
+  0.6px 1px 10px rgba(0, 0, 0, 0.035),
+  1.1px 1.8px 17.9px rgba(0, 0, 0, 0.042),
+  2.1px 3.3px 33.4px rgba(0, 0, 0, 0.05),
+  5px 8px 80px rgba(0, 0, 0, 0.07)
+;
+    
 }
 
 
@@ -205,6 +219,8 @@ h3{
     100px 100px 80px rgba(0, 0, 0, 0.07)
   ;
 }
+
+
 
 .third-bloc input{
     width: 400px;
