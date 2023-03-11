@@ -178,3 +178,44 @@ h2{
 h3{
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
+
+.third-bloc{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.third-bloc img{
+    height: 60px;
+    width: 60px;
+}
+
+.third-bloc-cta{
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: linear-gradient(90deg,#B3FFAB,#12FFF7);
+    box-shadow:
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
+}
+
+.third-bloc input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: rgb(127, 255, 212,0.2);
+}
