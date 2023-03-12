@@ -239,7 +239,7 @@ h3{
 }
 
 
-form{
+.inscription form{
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -259,13 +259,13 @@ form{
 ;
 }
 
-form div{
+.inscription form div{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-form input{
+.inscription form input{
     padding: 5px;
     background: rgb(127, 255, 212,0.1);
     border: none;
@@ -288,7 +288,7 @@ form input{
   ;
 }
 
-form .decoration{
+.inscription form .decoration{
     height: 60px;
     width: 60px;
     background: linear-gradient(90deg,#B3FFAB,#12FFF7);
