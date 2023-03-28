@@ -299,3 +299,30 @@ h3{
 
 }
 
+.logo{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+ }
+
+ .logo img{
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+ }
+
+ .logo a{
+        border : 1px solid black;
+        border-radius: 300px;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+ }
+
+ .inscription form h2{
+    font-size: 2em;
+    margin-top: 0;
+    color: #11998e;
+    text-shadow: none;
+ }
